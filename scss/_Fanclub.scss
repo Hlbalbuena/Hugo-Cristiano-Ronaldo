@@ -1,0 +1,42 @@
+.contenedor{
+	background-color: #03071e;
+	width: 400px;
+	padding: 30px;
+	margin: auto;
+	margin-top: 150px;
+	border-radius: 5px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+}
+.tituloFanClub{
+	margin-top: 15px;
+	margin-bottom: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.control{
+	width: 100%;
+	background-color: #03071e;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	border: 1px solid red;
+	font-family: 'Raleway', sans-serif;
+}
+.boton{
+	width: 100%;
+	height: 45px;
+	margin-top: 15px;
+	border-radius: 4px;
+	border: none;
+	color: #0000;
+	text-transform: uppercase;
+	background: linear-gradient(to left, #bdc3c7, #2c3e50);
+	font-family: 'Raleway', sans-serif;
+}
+.boton:hover {
+	cursor: pointer;
+	transform: translateY(-3px);
+	transition:all cubic-bezier(0.215, 0.610, 0.355, 1);
+}

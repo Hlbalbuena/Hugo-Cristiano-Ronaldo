@@ -1,0 +1,52 @@
+body{
+	background: url(../media/fondo.jpg);
+}
+.bgWhite{
+	background-color: #1f1616;
+}
+@media all and (max-width: 320px){
+	.bgWhite{
+	background-color: #1f1616;
+	max-width: 100%;
+	}
+}
+.cr7__titulo{
+	background-color: #fff;
+	color: #000;
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+}
+.cr7__texto{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	color: #fff;
+}
+#navBar{
+	background-color: #fff;
+	font-family: $fuente-light;
+}
+.bg{
+	background-color: #1f1616;
+}
+#contedorCarrusel{
+	width: 100%;	
+}
+#car{
+	margin-top: 100px;
+	width: 60%;
+}
+#header{
+	background-color: #4a4e69;
+	grid-area: hea;
+}
+.navbar-toggler-icon{
+	background-color: red;
+}
+.barraCr7__texto{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	color: #000;
+}
+

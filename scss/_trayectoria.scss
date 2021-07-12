@@ -1,0 +1,68 @@
+.Sporting__titulo{
+	color: #8d99ae;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+h3{
+	color: #118ab2;
+}
+.Sporting__texto{
+	line-height: 1.5;
+	font-family: 'Raleway', sans-serif; 
+	padding: 15px;
+}
+.letraDistina{
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.5;
+}
+.mediaSporting{
+	width: 70vh;
+	height: 40vh;
+	padding: 20px 10px;
+}
+.sportingVideo{
+	padding: 100px;
+}
+.trayectoriaSporting{
+	padding: 50px;
+ 	background-color: darkgreen;
+}
+@media all and (max-width: 1024px){
+	.trayectoriaSporting{
+	background-color: yellow;
+	}
+}
+@media all and (max-width: 600px){
+	.trayectoriaSporting{
+	background-color: #fff;
+	}
+}
+.trayectoriaManU{
+	background-color: red;
+	padding: 50px;
+}
+.manchesterUnited__titulo{
+	color: #8d99ae;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.manchesterUnited__texto{
+	line-height: 1.5;
+	font-family: 'Raleway', sans-serif; 
+	padding: 15px;
+}
+.mediaManU{
+	width: 70vh;
+	height: 40vh;
+	padding: 20px 10px;
+}
+#footer{
+	background-color: #1f1616;
+	color: white;
+	text-align: center;
+	width: 100%;
+	bottom: 0;
+}
+
