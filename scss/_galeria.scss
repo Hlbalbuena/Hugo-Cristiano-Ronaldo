@@ -1,4 +1,22 @@
-#sportingArea{
-	width: 700px;
-	height: 400px;
+.Lisboa{
+	text-align: center;
+	font-family: $fuente;
+	font-weight: $fuente-bold;
+	color: darkgreen;
+	animation-duration: 4s;
+	animation-name: aparecer;
+}
+@keyframes aparecer{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.sportingArea img{
+	/*width: 400px;
+	height: 300px;*/
+	max-width: 50%;
+  	height: auto;
 }

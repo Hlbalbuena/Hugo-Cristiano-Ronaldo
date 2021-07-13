@@ -1,230 +1,69 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300;1,500;1,700;1,800&display=swap");
-/* line 1, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_Cr7.scss */
-body {
-  background: url(../media/fondo.jpg);
-}
+body { background: url(../media/fondo.jpg); }
 
-/* line 4, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_Cr7.scss */
-.bgWhite {
-  background-color: #1f1616;
-}
+.bgWhite { background-color: #1f1616; }
 
-@media all and (max-width: 320px) {
-  /* line 8, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_Cr7.scss */
-  .bgWhite {
-    background-color: #1f1616;
-    max-width: 100%;
-  }
-}
+@media all and (max-width: 320px) { .bgWhite { background-color: #1f1616; max-width: 100%; } }
 
-/* line 13, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_Cr7.scss */
-.cr7__titulo {
-  background-color: #fff;
-  color: #000;
-  text-align: center;
-  margin-bottom: 30px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-}
+.cr7__titulo { background-color: #fff; color: #000; text-align: center; margin-bottom: 30px; font-family: 'Raleway', sans-serif; font-weight: 800; }
 
-/* line 21, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_Cr7.scss */
-.cr7__texto {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300;
-  color: #fff;
-}
+.cr7__texto { font-family: 'Raleway', sans-serif; font-weight: 300; color: #fff; }
 
-/* line 26, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_Cr7.scss */
-#navBar {
-  background-color: #fff;
-  font-family: 300;
-}
+#navBar { background-color: #fff; font-family: 300; }
 
-/* line 30, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_Cr7.scss */
-.bg {
-  background-color: #1f1616;
-}
+.bg { background-color: #1f1616; }
 
-/* line 33, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_Cr7.scss */
-#contedorCarrusel {
-  width: 100%;
-}
+#contedorCarrusel { width: 100%; }
 
-/* line 36, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_Cr7.scss */
-#car {
-  margin-top: 100px;
-  width: 60%;
-}
+#car { margin-top: 100px; width: 60%; }
 
-/* line 40, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_Cr7.scss */
-#header {
-  background-color: #4a4e69;
-  grid-area: hea;
-}
+#header { background-color: #4a4e69; grid-area: hea; }
 
-/* line 44, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_Cr7.scss */
-.navbar-toggler-icon {
-  background-color: red;
-}
+.navbar-toggler-icon { background-color: red; }
 
-/* line 47, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_Cr7.scss */
-.barraCr7__texto {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300;
-  color: #000;
-}
+.barraCr7__texto { font-family: 'Raleway', sans-serif; font-weight: 300; color: #000; }
 
-/* line 1, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_trayectoria.scss */
-.Sporting__titulo {
-  color: #8d99ae;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
+.Sporting__titulo { color: #8d99ae; font-family: 'Raleway', sans-serif; font-weight: 700; margin-bottom: 10px; }
 
-/* line 7, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_trayectoria.scss */
-h3 {
-  color: #118ab2;
-}
+h3 { color: #118ab2; }
 
-/* line 10, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_trayectoria.scss */
-.Sporting__texto {
-  line-height: 1.5;
-  font-family: 'Raleway', sans-serif;
-  padding: 15px;
-}
+.Sporting__texto { line-height: 1.5; font-family: 'Raleway', sans-serif; padding: 15px; }
 
-/* line 15, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_trayectoria.scss */
-.letraDistina {
-  font-family: 'Raleway', sans-serif;
-  line-height: 1.5;
-}
+.letraDistina { font-family: 'Raleway', sans-serif; line-height: 1.5; }
 
-/* line 19, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_trayectoria.scss */
-.mediaSporting {
-  width: 70vh;
-  height: 40vh;
-  padding: 20px 10px;
-}
+.mediaSporting { width: 70vh; height: 40vh; padding: 20px 10px; }
 
-/* line 24, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_trayectoria.scss */
-.sportingVideo {
-  padding: 100px;
-}
+.sportingVideo { padding: 100px; }
 
-/* line 27, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_trayectoria.scss */
-.trayectoriaSporting {
-  padding: 50px;
-  background-color: darkgreen;
-}
+.trayectoriaSporting { padding: 50px; background-color: darkgreen; }
 
-@media all and (max-width: 1024px) {
-  /* line 32, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_trayectoria.scss */
-  .trayectoriaSporting {
-    background-color: yellow;
-  }
-}
+@media all and (max-width: 1024px) { .trayectoriaSporting { background-color: yellow; } }
 
-@media all and (max-width: 600px) {
-  /* line 37, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_trayectoria.scss */
-  .trayectoriaSporting {
-    background-color: #fff;
-  }
-}
+@media all and (max-width: 600px) { .trayectoriaSporting { background-color: #fff; } }
 
-/* line 41, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_trayectoria.scss */
-.trayectoriaManU {
-  background-color: red;
-  padding: 50px;
-}
+.trayectoriaManU { background-color: red; padding: 50px; }
 
-/* line 45, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_trayectoria.scss */
-.manchesterUnited__titulo {
-  color: #8d99ae;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
+.manchesterUnited__titulo { color: #8d99ae; font-family: 'Raleway', sans-serif; font-weight: 700; margin-bottom: 10px; }
 
-/* line 51, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_trayectoria.scss */
-.manchesterUnited__texto {
-  line-height: 1.5;
-  font-family: 'Raleway', sans-serif;
-  padding: 15px;
-}
+.manchesterUnited__texto { line-height: 1.5; font-family: 'Raleway', sans-serif; padding: 15px; }
 
-/* line 56, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_trayectoria.scss */
-.mediaManU {
-  width: 70vh;
-  height: 40vh;
-  padding: 20px 10px;
-}
+.mediaManU { width: 70vh; height: 40vh; padding: 20px 10px; }
 
-/* line 61, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_trayectoria.scss */
-#footer {
-  background-color: #1f1616;
-  color: white;
-  text-align: center;
-  width: 100%;
-  bottom: 0;
-}
+#footer { background-color: #1f1616; color: white; text-align: center; width: 100%; bottom: 0; }
 
-/* line 1, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_galeria.scss */
-#sportingArea {
-  width: 700px;
-  height: 400px;
-}
+.Lisboa { text-align: center; font-family: "Raleway", sans-serif; font-weight: 800; color: darkgreen; animation-duration: 4s; animation-name: aparecer; }
 
-/* line 1, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_Fanclub.scss */
-.contenedor {
-  background-color: #03071e;
-  width: 400px;
-  padding: 30px;
-  margin: auto;
-  margin-top: 150px;
-  border-radius: 5px;
-  font-family: 'Raleway', sans-serif;
-  color: white;
-  box-shadow: 7px 13px 37px #000;
-}
+@keyframes aparecer { 0% { opacity: 0; }
+  100% { opacity: 1; } }
 
-/* line 12, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_Fanclub.scss */
-.tituloFanClub {
-  margin-top: 15px;
-  margin-bottom: 10px;
-  text-align: center;
-  text-transform: uppercase;
-}
+.sportingArea img { /*width: 400px; height: 300px;*/ max-width: 50%; height: auto; }
 
-/* line 18, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_Fanclub.scss */
-.control {
-  width: 100%;
-  background-color: #03071e;
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 20px;
-  border: 1px solid red;
-  font-family: 'Raleway', sans-serif;
-}
+.contenedor { background-color: #03071e; width: 400px; padding: 30px; margin: auto; margin-top: 150px; border-radius: 5px; font-family: 'Raleway', sans-serif; color: white; box-shadow: 7px 13px 37px #000; }
 
-/* line 27, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_Fanclub.scss */
-.boton {
-  width: 100%;
-  height: 45px;
-  margin-top: 15px;
-  border-radius: 4px;
-  border: none;
-  color: #0000;
-  text-transform: uppercase;
-  background: linear-gradient(to left, #bdc3c7, #2c3e50);
-  font-family: 'Raleway', sans-serif;
-}
+.tituloFanClub { margin-top: 15px; margin-bottom: 10px; text-align: center; text-transform: uppercase; }
 
-/* line 38, ../../Documents/CoderHouse/Proyecto Final Hugo Balbuena 4ta entrega/scss/_Fanclub.scss */
-.boton:hover {
-  cursor: pointer;
-  transform: translateY(-3px);
-  transition: all cubic-bezier(0.215, 0.61, 0.355, 1);
-}
+.control { width: 100%; background-color: #03071e; padding: 10px; border-radius: 4px; margin-bottom: 20px; border: 1px solid red; font-family: 'Raleway', sans-serif; }
 
-/*# sourceMappingURL=estilos.css.map */
+.boton { width: 100%; height: 45px; margin-top: 15px; border-radius: 4px; border: none; color: #0000; text-transform: uppercase; background: linear-gradient(to left, #bdc3c7, #2c3e50); font-family: 'Raleway', sans-serif; }
+
+.boton:hover { cursor: pointer; transform: translateY(-3px); transition: all cubic-bezier(0.215, 0.61, 0.355, 1); }
