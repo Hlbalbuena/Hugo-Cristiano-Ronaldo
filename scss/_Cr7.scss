@@ -1,45 +1,65 @@
 body{
 	background: url(../media/fondo.jpg);
 }
-.bgWhite{
-	background-color: #1f1616;
-}
-@media all and (max-width: 320px){
-	.bgWhite{
-	background-color: #1f1616;
-	max-width: 100%;
-	}
+.bgStyle{
+	border-radius: var(--Item-br);
+	box-shadow: var(--shadows);
+	background-color: #4a4a4a;
+	margin-top: 30px;
 }
 .cr7__titulo{
-	background-color: #fff;
-	color: #000;
 	text-align: center;
 	margin-bottom: 30px;
+	padding: 5%;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
+	color: white;
 }
 .cr7__texto{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
 	color: #fff;
+	padding: 30px;
 }
 #navBar{
-	background-color: #fff;
 	font-family: $fuente-light;
+	margin-left: 5%;
+	margin-right: 17%;
 }
 .bg{
-	background-color: #1f1616;
+	background-color: url(../media/fondo.jpg);
+}
+.navbar-nav{
+	margin-left: 22%;
+}
+.nav-item{
+	margin-right: 20%;
+	width: 100%;
+	height: 45px;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	padding: 0 10px 0 10px;
+	border-radius: 15px;
+	border: none;
+	text-transform: uppercase;
+	background: #c5c1c1;
+}
+.nav-item:hover{
+	cursor: pointer;
+	transform: translateY(-3px);
+	transition:all cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+.nav-link{
+	color: #676767;
+	font-weight: 800;
 }
 #contedorCarrusel{
 	width: 100%;	
 }
 #car{
-	margin-top: 100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	width: 60%;
-}
-#header{
-	background-color: #4a4e69;
-	grid-area: hea;
 }
 .navbar-toggler-icon{
 	background-color: red;
@@ -47,6 +67,33 @@ body{
 .barraCr7__texto{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
-	color: #000;
 }
-
+.instalogo{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: white;
+	font-size: 50px;
+}
+.twittlogo{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: white;
+	font-size: 50px;
+}
+.fblogo{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: white;
+	font-size: 50px;
+}
+.iconHover:hover{
+	cursor: pointer;
+	transform: translateY(-4px);
+	transition:all cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+#footer{
+	padding: 50px;
+}
