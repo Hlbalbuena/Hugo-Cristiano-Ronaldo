@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300;1,500;1,700;1,800&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
-body { background: url(../media/fondo.jpg); }
+body { background: url(../media/fondo.jpg); background-repeat: no-repeat; background-size: cover; }
 
 .bgStyle { border-radius: var(--Item-br); box-shadow: var(--shadows); background-color: #4a4a4a; margin-top: 30px; }
 
@@ -8,23 +8,29 @@ body { background: url(../media/fondo.jpg); }
 
 .cr7__texto { font-family: 'Raleway', sans-serif; font-weight: 300; color: #fff; padding: 30px; }
 
-#navBar { font-family: 300; margin-left: 5%; margin-right: 17%; }
+#navBar { font-family: 800; margin-left: 5%; margin-right: 17%; padding: 1%; width: 100%; }
 
 .bg { background-color: url(../media/fondo.jpg); }
 
-.navbar-nav { margin-left: 22%; }
+.listas { width: 100%; justify-content: space-evenly; }
 
-.nav-item { margin-right: 20%; width: 100%; height: 45px; margin-top: 3%; margin-bottom: 3%; padding: 0 10px 0 10px; border-radius: 15px; border: none; text-transform: uppercase; background: #c5c1c1; }
+.nav-item { margin-bottom: 2%; height: 40px; padding: 0 10px 0 10px; border-radius: 15px; text-transform: uppercase; background: #c5c1c1; }
+
+.desplegable { text-decoration: none; color: #676767; font-weight: 800; padding: 0 10px 0 10px; justify-content: center; align-items: center; }
+
+#navBar a:hover { color: #000; text-decoration: none; }
 
 .nav-item:hover { cursor: pointer; transform: translateY(-3px); transition: all cubic-bezier(0.215, 0.61, 0.355, 1); }
 
-.nav-link { color: #676767; font-weight: 800; }
+.nav-link { color: #676767; font-weight: 800; justify-content: center; align-items: center; }
 
 #contedorCarrusel { width: 100%; }
 
 #car { margin-top: 50px; margin-bottom: 50px; width: 60%; }
 
-.navbar-toggler-icon { background-color: red; }
+div.carousel-item img { border-radius: 45%; }
+
+.navbar-toggler-icon { color: #000; font-size: 50px; }
 
 .barraCr7__texto { font-family: 'Raleway', sans-serif; font-weight: 300; }
 
@@ -50,7 +56,7 @@ h3 { color: #118ab2; }
 
 .sportingVideo { padding: 100px; }
 
-.trayectoriaSporting { padding: 50px; background-color: darkgreen; }
+.trayectoriaSporting { padding: 50px; background: radial-gradient(circle, #020024 0%, #144705 0%, #616161 87%); }
 
 @media all and (max-width: 1024px) { .trayectoriaSporting { background-color: yellow; } }
 

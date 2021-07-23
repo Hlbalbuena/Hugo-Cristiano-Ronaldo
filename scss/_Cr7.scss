@@ -1,5 +1,7 @@
 body{
 	background: url(../media/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .bgStyle{
 	border-radius: var(--Item-br);
@@ -12,37 +14,48 @@ body{
 	margin-bottom: 30px;
 	padding: 5%;
 	font-family: 'Raleway', sans-serif;
-	font-weight: 800;
+	font-weight: $fuente-bold;
 	color: white;
 }
 .cr7__texto{
 	font-family: 'Raleway', sans-serif;
-	font-weight: 300;
+	font-weight: $fuente-light;
 	color: #fff;
 	padding: 30px;
 }
 #navBar{
-	font-family: $fuente-light;
+	font-family: $fuente-bold;
 	margin-left: 5%;
 	margin-right: 17%;
+	padding: 1%;
+	width: 100%;
 }
 .bg{
 	background-color: url(../media/fondo.jpg);
 }
-.navbar-nav{
-	margin-left: 22%;
+.listas{
+	width: 100%;
+	justify-content: space-evenly;
 }
 .nav-item{
-	margin-right: 20%;
-	width: 100%;
-	height: 45px;
-	margin-top: 3%;
-	margin-bottom: 3%;
+	margin-bottom: 2%;
+	height: 40px;
 	padding: 0 10px 0 10px;
 	border-radius: 15px;
-	border: none;
 	text-transform: uppercase;
 	background: #c5c1c1;
+}
+.desplegable{
+	text-decoration: none;
+	color: #676767;
+	font-weight: 800;
+	padding: 0 10px 0 10px;
+	justify-content: center;
+    align-items: center;
+}
+#navBar a:hover {
+	color: #000;
+	text-decoration: none;
 }
 .nav-item:hover{
 	cursor: pointer;
@@ -52,7 +65,10 @@ body{
 .nav-link{
 	color: #676767;
 	font-weight: 800;
+	justify-content: center;
+    align-items: center;
 }
+
 #contedorCarrusel{
 	width: 100%;	
 }
@@ -61,8 +77,12 @@ body{
 	margin-bottom: 50px;
 	width: 60%;
 }
+div.carousel-item img{
+	border-radius: 45%;
+}
 .navbar-toggler-icon{
-	background-color: red;
+	color: #000;
+	font-size: 50px;
 }
 .barraCr7__texto{
 	font-family: 'Raleway', sans-serif;
