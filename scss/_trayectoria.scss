@@ -1,3 +1,10 @@
+.sLStyle{
+	border-radius: var(--Item-br);
+	box-shadow: var(--shadows);
+	background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(20,71,5,1) 0%, rgba(97,97,97,1) 87%);
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
 .Sporting__titulo{
 	color: #8d99ae;
 	font-family: 'Raleway', sans-serif;
@@ -26,21 +33,12 @@ h3{
 }
 .trayectoriaSporting{
 	padding: 50px;
- 	background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(20,71,5,1) 0%, rgba(97,97,97,1) 87%);;
-}
-@media all and (max-width: 1024px){
-	.trayectoriaSporting{
-	background-color: yellow;
-	}
-}
-@media all and (max-width: 600px){
-	.trayectoriaSporting{
-	background-color: #fff;
-	}
 }
 .trayectoriaManU{
-	background-color: red;
 	padding: 50px;
+}
+.manchesterVideo{
+	padding: 100px;
 }
 .manchesterUnited__titulo{
 	color: #8d99ae;
@@ -57,4 +55,11 @@ h3{
 	width: 70vh;
 	height: 40vh;
 	padding: 20px 10px;
+}
+.manStyle{
+	border-radius: var(--Item-br);
+	box-shadow: var(--shadows);
+	background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(255,58,5,1) 0%, rgba(97,97,97,1) 87%);
+	margin-top: 30px;
+	margin-bottom: 30px;
 }

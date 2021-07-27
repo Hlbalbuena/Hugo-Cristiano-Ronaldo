@@ -34,6 +34,8 @@ div.carousel-item img { border-radius: 45%; }
 
 .barraCr7__texto { font-family: 'Raleway', sans-serif; font-weight: 300; }
 
+.cr7Video { padding: 10%; }
+
 .instalogo { text-align: center; margin-top: 30px; margin-bottom: 30px; color: white; font-size: 50px; }
 
 .twittlogo { text-align: center; margin-top: 30px; margin-bottom: 30px; color: white; font-size: 50px; }
@@ -43,6 +45,8 @@ div.carousel-item img { border-radius: 45%; }
 .iconHover:hover { cursor: pointer; transform: translateY(-4px); transition: all cubic-bezier(0.215, 0.61, 0.355, 1); }
 
 #footer { padding: 50px; }
+
+.sLStyle { border-radius: var(--Item-br); box-shadow: var(--shadows); background: radial-gradient(circle, #020024 0%, #144705 0%, #616161 87%); margin-top: 30px; margin-bottom: 30px; }
 
 .Sporting__titulo { color: #8d99ae; font-family: 'Raleway', sans-serif; font-weight: 700; margin-bottom: 10px; }
 
@@ -56,19 +60,19 @@ h3 { color: #118ab2; }
 
 .sportingVideo { padding: 100px; }
 
-.trayectoriaSporting { padding: 50px; background: radial-gradient(circle, #020024 0%, #144705 0%, #616161 87%); }
+.trayectoriaSporting { padding: 50px; }
 
-@media all and (max-width: 1024px) { .trayectoriaSporting { background-color: yellow; } }
+.trayectoriaManU { padding: 50px; }
 
-@media all and (max-width: 600px) { .trayectoriaSporting { background-color: #fff; } }
-
-.trayectoriaManU { background-color: red; padding: 50px; }
+.manchesterVideo { padding: 100px; }
 
 .manchesterUnited__titulo { color: #8d99ae; font-family: 'Raleway', sans-serif; font-weight: 700; margin-bottom: 10px; }
 
 .manchesterUnited__texto { line-height: 1.5; font-family: 'Raleway', sans-serif; padding: 15px; }
 
 .mediaManU { width: 70vh; height: 40vh; padding: 20px 10px; }
+
+.manStyle { border-radius: var(--Item-br); box-shadow: var(--shadows); background: radial-gradient(circle, #020024 0%, #ff3a05 0%, #616161 87%); margin-top: 30px; margin-bottom: 30px; }
 
 .Lisboa { text-align: center; font-family: "Raleway", sans-serif; font-weight: 800; color: darkgreen; animation-duration: 4s; animation-name: aparecer; }
 
