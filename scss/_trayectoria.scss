@@ -5,7 +5,7 @@
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
-.Sporting__titulo{
+.titulo{
 	color: #8d99ae;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
@@ -14,47 +14,27 @@
 h3{
 	color: #118ab2;
 }
-.Sporting__texto{
+.texto{
 	line-height: 1.5;
 	font-family: 'Raleway', sans-serif; 
+	font-weight: $fuente-regular;
 	padding: 15px;
 }
 .letraDistina{
 	font-family: 'Raleway', sans-serif;
 	line-height: 1.5;
 }
-.mediaSporting{
-	width: 70vh;
-	height: 40vh;
+.media{
+	width: 80vh;
+	height: 60vh;
 	padding: 20px 10px;
+	align-items: center;
 }
-.sportingVideo{
+.video{
 	padding: 100px;
 }
-.trayectoriaSporting{
+.trayectoria{
 	padding: 50px;
-}
-.trayectoriaManU{
-	padding: 50px;
-}
-.manchesterVideo{
-	padding: 100px;
-}
-.manchesterUnited__titulo{
-	color: #8d99ae;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
-	margin-bottom: 10px;
-}
-.manchesterUnited__texto{
-	line-height: 1.5;
-	font-family: 'Raleway', sans-serif; 
-	padding: 15px;
-}
-.mediaManU{
-	width: 70vh;
-	height: 40vh;
-	padding: 20px 10px;
 }
 .manStyle{
 	border-radius: var(--Item-br);
@@ -62,4 +42,22 @@ h3{
 	background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(255,58,5,1) 0%, rgba(97,97,97,1) 87%);
 	margin-top: 30px;
 	margin-bottom: 30px;
+}
+@mixin style{
+	border-radius: var(--Item-br);
+	box-shadow: var(--shadows);
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+div .realMadrid{
+	@include style;
+	background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(245,245,245,1) 0%, rgba(97,97,97,1) 87%);		
+}
+div .juve{
+	@include style;
+	background: linear-gradient(90deg, rgba(215,208,208,1) 0%, rgba(112,112,112,1) 5%, rgba(215,208,208,1) 85%);
+}
+div .portugal{
+	@include style;
+	background: linear-gradient(90deg, rgba(209,204,204,1) 15%, rgba(38,106,26,1) 47%, rgba(224,92,51,1) 53%);
 }
