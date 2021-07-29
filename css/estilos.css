@@ -48,17 +48,23 @@ div.carousel-item img { border-radius: 45%; }
 
 .sLStyle { border-radius: var(--Item-br); box-shadow: var(--shadows); background: radial-gradient(circle, #020024 0%, #144705 0%, #616161 87%); margin-top: 30px; margin-bottom: 30px; }
 
-.titulo { color: #8d99ae; font-family: 'Raleway', sans-serif; font-weight: 700; margin-bottom: 10px; }
+.titulo { color: #f3f3f3; font-family: 'Raleway', sans-serif; font-weight: 700; margin-bottom: 10px; }
 
-h3 { color: #118ab2; }
+h4 { font-family: 'Raleway', sans-serif; font-weight: 700; color: #000; }
 
 .texto { line-height: 1.5; font-family: 'Raleway', sans-serif; font-weight: 500; padding: 15px; }
 
-.letraDistina { font-family: 'Raleway', sans-serif; line-height: 1.5; }
+.letraDistina { font-family: 'Raleway', sans-serif; line-height: 1.5; color: #000; }
 
 .media { width: 80vh; height: 60vh; padding: 20px 10px; align-items: center; }
 
+@media (max-width: 700px) { .media { width: 48vh; height: 40vh; padding: 20px 10px; align-items: center; } }
+
 .video { padding: 100px; }
+
+.videoRM { padding: 100px; margin-top: 30%; margin-left: 5%; }
+
+.teams { justify-content: center; }
 
 .trayectoria { padding: 50px; }
 
@@ -69,6 +75,10 @@ div .realMadrid { border-radius: var(--Item-br); box-shadow: var(--shadows); mar
 div .juve { border-radius: var(--Item-br); box-shadow: var(--shadows); margin-top: 30px; margin-bottom: 30px; background: linear-gradient(90deg, #d7d0d0 0%, #707070 5%, #d7d0d0 85%); }
 
 div .portugal { border-radius: var(--Item-br); box-shadow: var(--shadows); margin-top: 30px; margin-bottom: 30px; background: linear-gradient(90deg, #d1cccc 15%, #266a1a 47%, #e05c33 53%); }
+
+.iconTeams { justify-content: center; width: 30vh; }
+
+.iconTeams:hover { cursor: pointer; transform: translateY(-4px); transition: all cubic-bezier(0.215, 0.61, 0.355, 1); }
 
 .Lisboa { text-align: center; font-family: "Raleway", sans-serif; font-weight: 800; color: darkgreen; animation-duration: 4s; animation-name: aparecer; }
 
