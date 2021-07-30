@@ -8,8 +8,9 @@ body{
 	box-shadow: var(--shadows);
 	background-color: #4a4a4a;
 	margin-top: 30px;
+	padding-top: 2%;
 }
-.cr7__titulo{
+.tituloCR7{
 	text-align: center;
 	margin-bottom: 30px;
 	padding: 5%;
@@ -17,7 +18,7 @@ body{
 	font-weight: $fuente-bold;
 	color: white;
 }
-.cr7__texto{
+.textoCR7{
 	font-family: 'Raleway', sans-serif;
 	font-weight: $fuente-light;
 	color: #fff;
@@ -96,21 +97,21 @@ div.carousel-item img{
 	margin-top: 30px;
 	margin-bottom: 30px;
 	color: white;
-	font-size: 50px;
+	font-size: 30px;
 }
 .twittlogo{
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 30px;
 	color: white;
-	font-size: 50px;
+	font-size: 30px;
 }
 .fblogo{
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 30px;
 	color: white;
-	font-size: 50px;
+	font-size: 30px;
 }
 .iconHover:hover{
 	cursor: pointer;

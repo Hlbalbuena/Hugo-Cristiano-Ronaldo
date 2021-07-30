@@ -2,11 +2,11 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 body { background: url(../media/fondo.jpg); background-repeat: no-repeat; background-size: cover; }
 
-.bgStyle { border-radius: var(--Item-br); box-shadow: var(--shadows); background-color: #4a4a4a; margin-top: 30px; }
+.bgStyle { border-radius: var(--Item-br); box-shadow: var(--shadows); background-color: #4a4a4a; margin-top: 30px; padding-top: 2%; }
 
-.cr7__titulo { text-align: center; margin-bottom: 30px; padding: 5%; font-family: 'Raleway', sans-serif; font-weight: 800; color: white; }
+.tituloCR7 { text-align: center; margin-bottom: 30px; padding: 5%; font-family: 'Raleway', sans-serif; font-weight: 800; color: white; }
 
-.cr7__texto { font-family: 'Raleway', sans-serif; font-weight: 300; color: #fff; padding: 30px; }
+.textoCR7 { font-family: 'Raleway', sans-serif; font-weight: 300; color: #fff; padding: 30px; }
 
 #navBar { font-family: 800; margin-left: 5%; margin-right: 17%; padding: 1%; width: 100%; }
 
@@ -36,11 +36,11 @@ div.carousel-item img { border-radius: 45%; }
 
 .cr7Video { padding: -20%; }
 
-.instalogo { text-align: center; margin-top: 30px; margin-bottom: 30px; color: white; font-size: 50px; }
+.instalogo { text-align: center; margin-top: 30px; margin-bottom: 30px; color: white; font-size: 30px; }
 
-.twittlogo { text-align: center; margin-top: 30px; margin-bottom: 30px; color: white; font-size: 50px; }
+.twittlogo { text-align: center; margin-top: 30px; margin-bottom: 30px; color: white; font-size: 30px; }
 
-.fblogo { text-align: center; margin-top: 30px; margin-bottom: 30px; color: white; font-size: 50px; }
+.fblogo { text-align: center; margin-top: 30px; margin-bottom: 30px; color: white; font-size: 30px; }
 
 .iconHover:hover { cursor: pointer; transform: translateY(-4px); transition: all cubic-bezier(0.215, 0.61, 0.355, 1); }
 
@@ -56,9 +56,9 @@ h4 { font-family: 'Raleway', sans-serif; font-weight: 700; color: #000; }
 
 .letraDistina { font-family: 'Raleway', sans-serif; line-height: 1.5; color: #000; }
 
-.media { width: 80vh; height: 60vh; padding: 20px 10px; align-items: center; }
+.media { width: 60vh; height: 40vh; padding: 20px 10px; align-items: center; }
 
-@media (max-width: 700px) { .media { width: 48vh; height: 40vh; padding: 20px 10px; align-items: center; } }
+@media (max-width: 700px) { .media { width: 42vh; height: 40vh; padding: 20px 10px; align-items: center; } }
 
 .video { padding: 100px; }
 
@@ -74,28 +74,36 @@ div .realMadrid { border-radius: var(--Item-br); box-shadow: var(--shadows); mar
 
 div .juve { border-radius: var(--Item-br); box-shadow: var(--shadows); margin-top: 30px; margin-bottom: 30px; background: linear-gradient(90deg, #d7d0d0 0%, #707070 5%, #d7d0d0 85%); }
 
-div .portugal { border-radius: var(--Item-br); box-shadow: var(--shadows); margin-top: 30px; margin-bottom: 30px; background: linear-gradient(90deg, #d1cccc 15%, #266a1a 47%, #e05c33 53%); }
+div .portugal { border-radius: var(--Item-br); box-shadow: var(--shadows); margin-top: 30px; margin-bottom: 30px; background: linear-gradient(90deg, #d1cccc 15%, #266a1a 47%, #d53503 49%); }
 
 .iconTeams { justify-content: center; width: 30vh; }
 
 .iconTeams:hover { cursor: pointer; transform: translateY(-4px); transition: all cubic-bezier(0.215, 0.61, 0.355, 1); }
 
-.Lisboa { text-align: center; font-family: "Raleway", sans-serif; font-weight: 800; color: darkgreen; animation-duration: 4s; animation-name: aparecer; }
+.clubes { text-align: center; font-family: "Raleway", sans-serif; font-weight: 800; color: #000600; animation-duration: 4s; animation-name: aparecer; }
 
 @keyframes aparecer { 0% { opacity: 0; }
   100% { opacity: 1; } }
 
-.sportingArea img { /*width: 400px; height: 300px;*/ max-width: 50%; height: auto; }
+.form-content { margin-left: 30%; margin-top: 4%; margin-bottom: 5%; width: 400px; height: 400px; font-family: 'Raleway', sans-serif; background: #03071e; border-radius: 45px; box-sizing: border-box; padding: 30px; box-shadow: 7px 13px 37px #000; }
 
-.contenedor { background-color: #03071e; width: 400px; padding: 30px; margin: auto; margin-top: 150px; border-radius: 5px; font-family: 'Raleway', sans-serif; color: white; box-shadow: 7px 13px 37px #000; }
+.form-content form { height: 100%; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: space-evenly; color: #fff; }
 
-.tituloFanClub { margin-top: 15px; margin-bottom: 10px; text-align: center; text-transform: uppercase; }
+.tituloFanClub { margin-top: 15px; margin-bottom: 20px; text-align: center; }
 
-.control { width: 100%; background-color: #f7f8f9; padding: 10px; border-radius: 4px; margin-bottom: 20px; border: 1px solid red; font-family: 'Raleway', sans-serif; }
+.form-content form .inputbox { position: relative; width: 100%; display: flex; justify-content: center; }
 
-.boton { width: 100%; height: 45px; margin-top: 15px; border-radius: 4px; border: none; color: #000; text-transform: uppercase; background: linear-gradient(to left, #bdc3c7, #2c3e50); font-family: 'Raleway', sans-serif; }
+.form-content form .inputbox label { position: absolute; left: 15%; top: 0; pointer-events: none; transition: 0.5s; font-size: 20px; transition: 0.5s ease; }
 
-.boton:hover { cursor: pointer; transform: translateY(-3px); transition: all cubic-bezier(0.215, 0.61, 0.355, 1); }
+.form-content form .inputbox input { width: 80%; border: none; border-bottom: 1px solid #fff; background: transparent; color: #fff; outline: none; padding: 0.4em 0.8em; }
+
+.form-content form .inputbox input:focus ~ label, .form-content form .inputbox input:valid ~ label { font-size: 15px; color: lightskyblue; transform: translate(0, -100%); transition: 0.5s ease; }
+
+.form-content form .button { padding: 0.5em 2em; background: linear-gradient(to left, #bdc3c7, #2c3e50); outline: none; border-radius: 25px; }
+
+.button:hover { cursor: pointer; transform: translateY(-3px); transition: all cubic-bezier(0.215, 0.61, 0.355, 1); }
+
+.form-content form a { text-decoration: none; color: black; outline: none; }
 
 :root { --shadows: 
 			-4px -4px 12px rgb(255 255 255 /35%), 4px 4px 12px rgb(60 60 60 / 80%); --item-shadows: 

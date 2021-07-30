@@ -28,14 +28,14 @@ h4{
 	color: #000;
 }
 .media{
-	width: 80vh;
-	height: 60vh;
+	width: 60vh;
+	height: 40vh;
 	padding: 20px 10px;
 	align-items: center;
 }
 @media (max-width: 700px) {
 	.media{
-		width: 48vh;
+		width: 42vh;
 		height: 40vh;
 		padding: 20px 10px;
 		align-items: center;
@@ -78,7 +78,7 @@ div .juve{
 }
 div .portugal{
 	@include style;
-	background: linear-gradient(90deg, rgba(209,204,204,1) 15%, rgba(38,106,26,1) 47%, rgba(224,92,51,1) 53%);
+	background: linear-gradient(90deg, rgba(209,204,204,1) 15%, rgba(38,106,26,1) 47%, rgba(213,53,3,1) 49%);
 }
 .iconTeams{
 	justify-content: center;

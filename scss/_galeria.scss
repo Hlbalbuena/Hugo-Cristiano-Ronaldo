@@ -1,8 +1,8 @@
-.Lisboa{
+.clubes{
 	text-align: center;
 	font-family: $fuente;
 	font-weight: $fuente-bold;
-	color: darkgreen;
+	color: #000600;
 	animation-duration: 4s;
 	animation-name: aparecer;
 }
@@ -13,10 +13,4 @@
 	100%{
 		opacity: 1;
 	}
-}
-.sportingArea img{
-	/*width: 400px;
-	height: 300px;*/
-	max-width: 50%;
-  	height: auto;
 }
