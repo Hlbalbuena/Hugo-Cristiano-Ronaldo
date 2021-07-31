@@ -44,7 +44,7 @@ div.carousel-item img { border-radius: 45%; }
 
 .iconHover:hover { cursor: pointer; transform: translateY(-4px); transition: all cubic-bezier(0.215, 0.61, 0.355, 1); }
 
-#footer { padding: 50px; }
+#footer { padding: 30px; }
 
 .sLStyle { border-radius: var(--Item-br); box-shadow: var(--shadows); background: radial-gradient(circle, #020024 0%, #144705 0%, #616161 87%); margin-top: 30px; margin-bottom: 30px; }
 
@@ -58,7 +58,7 @@ h4 { font-family: 'Raleway', sans-serif; font-weight: 700; color: #000; }
 
 .media { width: 60vh; height: 40vh; padding: 20px 10px; align-items: center; }
 
-@media (max-width: 700px) { .media { width: 42vh; height: 40vh; padding: 20px 10px; align-items: center; } }
+@media (max-width: 700px) { .media { width: 44vh; height: 42vh; padding: 20px 10px; align-items: center; } }
 
 .video { padding: 100px; }
 
@@ -76,7 +76,7 @@ div .juve { border-radius: var(--Item-br); box-shadow: var(--shadows); margin-to
 
 div .portugal { border-radius: var(--Item-br); box-shadow: var(--shadows); margin-top: 30px; margin-bottom: 30px; background: linear-gradient(90deg, #d1cccc 15%, #266a1a 47%, #d53503 49%); }
 
-.iconTeams { justify-content: center; width: 30vh; }
+.iconTeams { justify-content: center; width: 10vh; }
 
 .iconTeams:hover { cursor: pointer; transform: translateY(-4px); transition: all cubic-bezier(0.215, 0.61, 0.355, 1); }
 
@@ -85,13 +85,15 @@ div .portugal { border-radius: var(--Item-br); box-shadow: var(--shadows); margi
 @keyframes aparecer { 0% { opacity: 0; }
   100% { opacity: 1; } }
 
-.form-content { margin-left: 30%; margin-top: 4%; margin-bottom: 5%; width: 400px; height: 400px; font-family: 'Raleway', sans-serif; background: #03071e; border-radius: 45px; box-sizing: border-box; padding: 30px; box-shadow: 7px 13px 37px #000; }
+.form-section { display: flex; justify-content: center; }
+
+.form-content { margin-left: 3%; margin-right: 3%; margin-bottom: 5%; width: 400px; height: 400px; font-family: 'Raleway', sans-serif; background: #03071e; border-radius: 45px; box-sizing: border-box; box-shadow: 7px 13px 37px #000; }
 
 .form-content form { height: 100%; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: space-evenly; color: #fff; }
 
 .tituloFanClub { margin-top: 15px; margin-bottom: 20px; text-align: center; }
 
-.form-content form .inputbox { position: relative; width: 100%; display: flex; justify-content: center; }
+.form-content form .inputbox { margin-bottom: 12px; position: relative; width: 100%; display: flex; justify-content: center; }
 
 .form-content form .inputbox label { position: absolute; left: 15%; top: 0; pointer-events: none; transition: 0.5s; font-size: 20px; transition: 0.5s ease; }
 

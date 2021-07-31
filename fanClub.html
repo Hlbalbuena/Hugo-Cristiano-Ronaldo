@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>FanClub</title>
 	<meta charset="utf-8">
-	<meta name=viewport content="width=divice-width, initial-scale=1">
+	<meta name=viewport content="width=divice-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="Página web que contiene un fanclub el cual tiene como objetivo sumar seguidores que esten interesados en conocer y seguir la carrera de Cristiano Ronaldo">
 	<!-- <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"> -->
 	<!-- CSS only -->
@@ -65,24 +65,25 @@
 			<div class="container">
 				<div class="bgStyle">
 					<div>
-						<div class="form-content">
-							<form>
-								<h1 class="tituloFanClub">Suscribete a nuestro Fan-Club</h1>
-								<div class="inputbox">		
-									<input type="text" name="nombre" required="">
-									<label class="label" for="nombre">Nombre</label>
-								</div>
-								<div class="inputbox">
-									
-									<input type="text" name="apellido" required="">
-									<label class="label" for="apellido">Apellido</label>
-								</div>
-								<div class="inputbox">
-									<input type="text" name="correo" required="">
-									<label class="label" for="correo">E-mail</label>
-								</div>
-								<div class="button"><a href="recibe.html">Suscribir</a></div>
-							</form>
+						<div class="form-section">
+							<div class="form-content">
+								<form action="recibe.html" method="post">
+									<h1 class="tituloFanClub">Suscribete a nuestro Fan-Club</h1>
+									<div class="inputbox">		
+										<input type="text" name="nombre" required>
+										<label class="label" for="nombre">Nombre</label>
+									</div>
+									<div class="inputbox">										
+										<input type="text" name="apellido" required>
+										<label class="label" for="apellido">Apellido</label>
+									</div>
+									<div class="inputbox">
+										<input type="email" name="email" required>
+										<label class="label" for="email">E-mail</label>
+									</div>
+									<input type="submit" name="enviar" type="Susbribir">
+								</form>
+							</div>
 						</div>
 						<div id="contedorCarrusel" class="row">
 							<div id="car" class="carousel slide col align-self-center" data-ride="carousel">
@@ -110,31 +111,31 @@
 					</div>
 				</div>
 			</div>
-				<footer id="footer">
-  					<div class="d-flex bgStyle">
-  						<div class="col-4 iconHover">
-  							<a href="https://www.instagram.com/cristiano/?hl=es-la" target="e_blank">
-  								<div class="instalogo">
-  									<i class="bi bi-instagram"></i>
-  								</div>
-  							</a>
-						</div>
-						<div class="col-4 iconHover">
-							<a href="https://twitter.com/cristiano" target="e_blank">
-  								<div class="twittlogo">		
-  									<i class="bi bi-twitter"></i>
-  								</div>
-  							</a>
-						</div>
-							<div class="col-4 iconHover">
-							<a href="https://es-la.facebook.com/Cristiano" target="e_blank">
-  								<div class="fblogo">
-  									<i class="bi bi-facebook"></i>
-  								</div>
-  							</a>
-						</div>
-  					</div>
-  				</footer>
+			<footer id="footer">
+				<div class="d-flex bgStyle">
+					<div class="col-4 iconHover">
+						<a href="https://www.instagram.com/cristiano/?hl=es-la" target="e_blank">
+							<div class="instalogo">
+								<i class="bi bi-instagram"></i>
+							</div>
+						</a>
+					</div>
+					<div class="col-4 iconHover">
+						<a href="https://twitter.com/cristiano" target="e_blank">
+							<div class="twittlogo">		
+								<i class="bi bi-twitter"></i>
+							</div>
+						</a>
+					</div>
+					<div class="col-4 iconHover">
+						<a href="https://es-la.facebook.com/Cristiano" target="e_blank">
+							<div class="fblogo">
+								<i class="bi bi-facebook"></i>
+							</div>
+						</a>
+					</div>
+				</div>
+			</footer>
 			</div>
 
 				<!-- JavaScript Bundle with Popper -->
